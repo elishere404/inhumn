@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import 'https://ucnaurobebi.net/style.css'
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <h1 id="silly">ucnaurobebi.net</h1>
     </div>
     </div>
+    <
   );
 }
 

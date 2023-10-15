@@ -14,7 +14,7 @@ function App() {
       <h1 id="silly">ucnaurobebi.net</h1>
     </div>
     </div>
-    <
+    
   );
 }
 

@@ -4,20 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div class="box2">
+      <button class="round-6" onclick="redirectToRealm('realm1')">REALM 1</button>
+    <button class="round-6" onclick="redirectToRealm('realm2')">REALM 2</button>
+    <button class="round-6" onclick="redirectToRealm('realm3')">REALM 3</button>
+    </div>
+    <div class="flex">
+      <h1 id="tot">welcome to</h1>
+      <h1 id="silly">ucnaurobebi.net</h1>
+    </div>
     </div>
   );
 }
